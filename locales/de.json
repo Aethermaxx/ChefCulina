@@ -1,0 +1,170 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "pantry": "Speisekammer",
+    "recipe": "Rezept",
+    "cookbook": "Kochbuch",
+    "profile": "Profil"
+  },
+  "slogan": "liebst du essen? hasse verschwendung.",
+  "home": {
+    "greeting": "Hallo, {{name}}!",
+    "welcome": "Willkommen bei Ihrem persönlichen Küchenassistenten. Verwandeln Sie übrig gebliebene Zutaten in fantastische Mahlzeiten oder lassen Sie sich von einer brandneuen Rezeptidee inspirieren.",
+    "myPantry": "Meine Speisekammer",
+    "inspireMe": "Inspiriere mich!"
+  },
+  "pantry": {
+    "title": "Speisekammer-Chef",
+    "subtitle": "Verwandeln Sie Ihre Vorräte in köstliche Mahlzeiten. Fügen Sie Ihre Zutaten hinzu und lassen Sie die KI die Magie wirken!",
+    "inputHeader": "Was ist in Ihrer Speisekammer?",
+    "inputPlaceholder": "z.B. Hähnchenbrust, Tomaten",
+    "add": "Hinzufügen",
+    "clearAll": "Alles löschen",
+    "generate": "Rezepte generieren",
+    "thinking": "Denken...",
+    "errorTitle": "Oh nein!",
+    "errorMessage": "Wir konnten diesmal keine Rezepte generieren. Bitte überprüfen Sie, ob Ihre Zutaten klar und spezifisch sind (z.B. '1 Tasse Mehl' anstelle von 'Mehl'). Wenn das Problem weiterhin besteht, versuchen Sie es bitte später erneut. (Details: {{details}})",
+    "addIngredientError": "Bitte fügen Sie mindestens eine Zutat hinzu, um zu beginnen.",
+    "servingSizeTitle": "Für wen kochen Sie?",
+    "servingSizeError": "Bitte stellen Sie eine Portionsgröße größer als Null ein.",
+    "servings": {
+      "adults": "Erwachsene",
+      "children": "Kinder",
+      "seniors": "Senioren",
+      "total": "Gesamtportionen"
+    },
+    "filters": {
+      "difficulty": "Schwierigkeit:",
+      "all": "Alle",
+      "easy": "Einfach",
+      "medium": "Mittel",
+      "hard": "Schwer",
+      "sortBy": "Sortieren nach:",
+      "default": "Standard",
+      "shortest": "Kochzeit (kürzeste)",
+      "longest": "Kochzeit (längste)"
+    }
+  },
+  "recipeGenerator": {
+    "title": "Worauf haben Sie Appetit?",
+    "subtitle": "Erhalten Sie ein einzigartiges Rezept für jede Idee, komplett mit Foto!",
+    "inputPlaceholder": "z.B. scharfe Hähnchen-Tacos, vegane Pasta",
+    "promptError": "Bitte geben Sie ein, was Sie zubereiten möchten.",
+    "genericError": "Etwas ist schiefgegangen: {{details}}",
+    "surpriseMe": "Überrasche mich!",
+    "inspirationTitle": "Oder probieren Sie eines davon",
+    "quickEasy": "Schnell & Einfach",
+    "healthy": "Gesund",
+    "comfort": "Hausmannskost",
+    "world": "Aus aller Welt"
+  },
+  "profile": {
+    "title": "Mein Profil",
+    "subtitle": "Verwalten Sie Ihre Präferenzen und verfolgen Sie Ihre kulinarische Reise.",
+    "accountDetails": "Kontodetails",
+    "displayName": "Anzeigename",
+    "displayNamePlaceholder": "Geben Sie Ihren Namen ein",
+    "stats": {
+      "dishesCooked": "Gekochte Gerichte",
+      "tally": "Eine Zählung Ihrer kulinarischen Kreationen!"
+    },
+    "preferences": "Einstellungen",
+    "language": "Sprache",
+    "theme": "Thema",
+    "restrictions": {
+      "title": "Allergien & Ernährungsbeschränkungen",
+      "subtitle": "Listen Sie alle Zutaten auf, die von allen Rezeptvorschlägen ausgeschlossen werden sollen.",
+      "placeholder": "z.B. Erdnüsse, Gluten, Schalentiere",
+      "add": "Hinzufügen"
+    }
+  },
+  "cookbook": {
+    "title": "Mein Kochbuch",
+    "subtitle": "Ihre persönliche Sammlung gespeicherter Rezepte. Finden, filtern und besuchen Sie Ihre Favoriten erneut.",
+    "empty": "Ihr Kochbuch ist leer.",
+    "empty_cta": "Beginnen Sie mit dem Erkunden und speichern Sie Rezepte, die Sie lieben!",
+    "search_placeholder": "In Ihrem Kochbuch suchen...",
+    "filter_category": "Nach Kategorie filtern",
+    "filter_tag": "Nach Tag filtern",
+    "all_categories": "Alle Kategorien",
+    "all_tags": "Alle Tags",
+    "no_results": "Keine Rezepte gefunden.",
+    "no_results_desc": "Versuchen Sie, Ihre Suche oder Filter anzupassen."
+  },
+  "saveModal": {
+    "title_save": "Im Kochbuch speichern",
+    "title_edit": "Rezeptdetails bearbeiten",
+    "notes": "Meine Notizen",
+    "notes_placeholder": "z.B. 'Zucker durch Honig ersetzt', 'Großartig für Partys!'",
+    "categories": "Kategorie",
+    "category_placeholder": "Wählen Sie eine Kategorie",
+    "category_dinner": "Abendessen",
+    "category_lunch": "Mittagessen",
+    "category_breakfast": "Frühstück",
+    "category_dessert": "Dessert",
+    "category_snack": "Snack",
+    "category_vegan": "Vegan",
+    "tags": "Tags",
+    "tags_placeholder": "Tags hinzufügen (z.B. scharf, schnell)",
+    "save": "Rezept speichern",
+    "update": "Rezept aktualisieren"
+  },
+  "recipeCard": {
+    "cooked": "Ich habe das gekocht!",
+    "share": "Rezept teilen",
+    "print": "Rezept drucken",
+    "save": "Im Kochbuch speichern",
+    "unsave": "Aus dem Kochbuch entfernen",
+    "edit": "Details bearbeiten",
+    "linkCopied": "Link kopiert!",
+    "copyFailed": "Kopieren fehlgeschlagen",
+    "serves": "Portionen",
+    "nutrition": {
+      "title": "Nährwertangaben",
+      "serving": "(pro Portion)",
+      "calories": "Kalorien",
+      "protein": "Protein",
+      "carbs": "Kohlenhydrate",
+      "fat": "Fett",
+      "unavailable": "Geschätzte Nährwertinformationen nicht verfügbar."
+    },
+    "ingredients": "Zutaten",
+    "instructions": "Anleitung",
+    "image": {
+      "generating": "Bild wird generiert..."
+    }
+  },
+  "shared": {
+    "title": "Hier ist ein geteiltes Rezept!",
+    "subtitle": "Genießen Sie dieses Rezept. Sie können es in Ihren Favoriten speichern oder zur App zurückkehren.",
+    "back": "Zurück zu Chef Culina"
+  },
+  "loading": "Köstliche Rezepte werden generiert...",
+  "auth": {
+    "welcome": "Willkommen bei",
+    "login": "Anmelden",
+    "signup": "Registrieren",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "confirmPassword": "Passwort bestätigen",
+    "name": "Name",
+    "loginPrompt": "Sie haben noch kein Konto?",
+    "signupPrompt": "Sie haben bereits ein Konto?",
+    "logout": "Abmelden",
+    "divider": "Oder weiter mit",
+    "google_signin": "Weiter mit Google",
+    "apple_signin": "Weiter mit Apple",
+    "discord_signin": "Weiter mit Discord",
+    "errors": {
+      "nameEmpty": "Name darf nicht leer sein.",
+      "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+      "passwordEmpty": "Passwort darf nicht leer sein.",
+      "passwordShort": "Das Passwort muss mindestens 6 Zeichen lang sein.",
+      "passwordMismatch": "Passwörter stimmen nicht überein.",
+      "generic": "Ein unerwarteter Fehler ist aufgetreten.",
+      "socialLogin": "Während der sozialen Anmeldung ist ein unerwarteter Fehler aufgetreten.",
+      "invalidCredentials": "Ungültige E-Mail oder Passwort.",
+      "emailExists": "Ein Konto mit dieser E-Mail existiert bereits."
+    }
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "pantry": "Despensa",
+    "recipe": "Receta",
+    "cookbook": "Recetario",
+    "profile": "Perfil"
+  },
+  "slogan": "¿amas la comida? odia el desperdicio.",
+  "home": {
+    "greeting": "¡Hola, {{name}}!",
+    "welcome": "Bienvenido a tu asistente de cocina personal. Convierte los ingredientes sobrantes en comidas increíbles o inspírate con una nueva idea de receta.",
+    "myPantry": "Mi Despensa",
+    "inspireMe": "¡Inspírame!"
+  },
+  "pantry": {
+    "title": "Chef de Despensa",
+    "subtitle": "Convierte los artículos de tu despensa en comidas deliciosas. ¡Agrega tus ingredientes y deja que la IA haga la magia!",
+    "inputHeader": "¿Qué hay en tu despensa?",
+    "inputPlaceholder": "ej., pechuga de pollo, tomates",
+    "add": "Añadir",
+    "clearAll": "Limpiar todo",
+    "generate": "Generar Recetas",
+    "thinking": "Pensando...",
+    "errorTitle": "¡Oh no!",
+    "errorMessage": "No pudimos generar recetas esta vez. Por favor, comprueba si tus ingredientes son claros y específicos (p. ej., '1 taza de harina' en lugar de 'harina'). Si el problema persiste, inténtalo de nuevo más tarde. (Detalles: {{details}})",
+    "addIngredientError": "Por favor, añade al menos un ingrediente para empezar.",
+    "servingSizeTitle": "¿Para quién cocinas?",
+    "servingSizeError": "Por favor, establece un tamaño de porción mayor que cero.",
+    "servings": {
+      "adults": "Adultos",
+      "children": "Niños",
+      "seniors": "Mayores",
+      "total": "Total Raciones"
+    },
+    "filters": {
+      "difficulty": "Dificultad:",
+      "all": "Todas",
+      "easy": "Fácil",
+      "medium": "Medio",
+      "hard": "Difícil",
+      "sortBy": "Ordenar por:",
+      "default": "Por defecto",
+      "shortest": "Tiempo (más corto)",
+      "longest": "Tiempo (más largo)"
+    }
+  },
+  "recipeGenerator": {
+    "title": "¿Qué te apetece?",
+    "subtitle": "¡Obtén una receta única para cualquier idea, con foto incluida!",
+    "inputPlaceholder": "ej., tacos de pollo picantes, pasta vegana",
+    "promptError": "Por favor, introduce lo que te gustaría hacer.",
+    "genericError": "Algo salió mal: {{details}}",
+    "surpriseMe": "¡Sorpréndeme!",
+    "inspirationTitle": "O prueba una de estas",
+    "quickEasy": "Rápido y Fácil",
+    "healthy": "Saludable",
+    "comfort": "Reconfortante",
+    "world": "Del Mundo"
+  },
+  "profile": {
+    "title": "Mi Perfil",
+    "subtitle": "Gestiona tus preferencias y sigue tu viaje culinario.",
+    "accountDetails": "Detalles de la Cuenta",
+    "displayName": "Nombre de Usuario",
+    "displayNamePlaceholder": "Introduce tu nombre",
+    "stats": {
+      "dishesCooked": "Platos Cocinados",
+      "tally": "¡Un recuento de tus creaciones culinarias!"
+    },
+    "preferences": "Preferencias",
+    "language": "Idioma",
+    "theme": "Tema",
+    "restrictions": {
+      "title": "Alergias y Restricciones Dietéticas",
+      "subtitle": "Enumere los ingredientes que se excluirán de todas las sugerencias de recetas.",
+      "placeholder": "ej., cacahuetes, gluten, mariscos",
+      "add": "Añadir"
+    }
+  },
+  "cookbook": {
+    "title": "Mi Recetario",
+    "subtitle": "Tu colección personal de recetas guardadas. Encuentra, filtra y revisa tus favoritas.",
+    "empty": "Tu recetario está vacío.",
+    "empty_cta": "¡Empieza a explorar y guarda las recetas que te encantan!",
+    "search_placeholder": "Buscar en tu recetario...",
+    "filter_category": "Filtrar por categoría",
+    "filter_tag": "Filtrar por etiqueta",
+    "all_categories": "Todas las Categorías",
+    "all_tags": "Todas las Etiquetas",
+    "no_results": "No se encontraron recetas.",
+    "no_results_desc": "Intenta ajustar tu búsqueda o filtros."
+  },
+  "saveModal": {
+    "title_save": "Guardar en Recetario",
+    "title_edit": "Editar Detalles de Receta",
+    "notes": "Mis Notas",
+    "notes_placeholder": "Ej: 'Sustituí azúcar por miel', '¡Ideal para fiestas!'",
+    "categories": "Categoría",
+    "category_placeholder": "Selecciona una categoría",
+    "category_dinner": "Cena",
+    "category_lunch": "Almuerzo",
+    "category_breakfast": "Desayuno",
+    "category_dessert": "Postre",
+    "category_snack": "Snack",
+    "category_vegan": "Vegano",
+    "tags": "Etiquetas",
+    "tags_placeholder": "Añadir etiquetas (ej. picante, rápido)",
+    "save": "Guardar Receta",
+    "update": "Actualizar Receta"
+  },
+  "recipeCard": {
+    "cooked": "¡He cocinado esto!",
+    "share": "Compartir Receta",
+    "print": "Imprimir Receta",
+    "save": "Guardar en recetario",
+    "unsave": "Quitar del recetario",
+    "edit": "Editar Detalles",
+    "linkCopied": "¡Enlace Copiado!",
+    "copyFailed": "Fallo al copiar",
+    "serves": "Raciones",
+    "nutrition": {
+      "title": "Información Nutricional",
+      "serving": "(por porción)",
+      "calories": "Calorías",
+      "protein": "Proteína",
+      "carbs": "Carbs",
+      "fat": "Grasa",
+      "unavailable": "Información nutricional estimada no disponible."
+    },
+    "ingredients": "Ingredientes",
+    "instructions": "Instrucciones",
+    "image": {
+      "generating": "Generando Imagen..."
+    }
+  },
+  "shared": {
+    "title": "¡Aquí tienes una Receta Compartida!",
+    "subtitle": "Disfruta de esta receta. Puedes guardarla en tus favoritos o volver a la aplicación.",
+    "back": "Volver a Chef Culina"
+  },
+  "loading": "Generando recetas deliciosas...",
+  "auth": {
+    "welcome": "Bienvenido a",
+    "login": "Iniciar Sesión",
+    "signup": "Registrarse",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "confirmPassword": "Confirmar Contraseña",
+    "name": "Nombre",
+    "loginPrompt": "¿No tienes una cuenta?",
+    "signupPrompt": "¿Ya tienes una cuenta?",
+    "logout": "Cerrar Sesión",
+    "divider": "O continuar con",
+    "google_signin": "Continuar con Google",
+    "apple_signin": "Continuar con Apple",
+    "discord_signin": "Continuar con Discord",
+    "errors": {
+      "nameEmpty": "El nombre no puede estar vacío.",
+      "emailInvalid": "Por favor, introduce una dirección de correo electrónico válida.",
+      "passwordEmpty": "La contraseña no puede estar vacía.",
+      "passwordShort": "La contraseña debe tener al menos 6 caracteres.",
+      "passwordMismatch": "Las contraseñas no coinciden.",
+      "generic": "Ocurrió un error inesperado.",
+      "socialLogin": "Ocurrió un error inesperado durante el inicio de sesión social.",
+      "invalidCredentials": "Correo electrónico o contraseña no válidos.",
+      "emailExists": "Ya existe una cuenta con este correo electrónico."
+    }
+  }
+}

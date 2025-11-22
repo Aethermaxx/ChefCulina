@@ -1,0 +1,170 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "pantry": "Garde-manger",
+    "recipe": "Recette",
+    "cookbook": "Livre de recettes",
+    "profile": "Profil"
+  },
+  "slogan": "aimez la nourriture? détestez le gaspillage.",
+  "home": {
+    "greeting": "Salut, {{name}}!",
+    "welcome": "Bienvenue dans votre assistant de cuisine personnel. Transformez les ingrédients restants en repas incroyables, ou laissez-vous inspirer par une toute nouvelle idée de recette.",
+    "myPantry": "Mon Garde-manger",
+    "inspireMe": "Inspirez-moi!"
+  },
+  "pantry": {
+    "title": "Chef du Garde-manger",
+    "subtitle": "Transformez les articles de votre garde-manger en repas délicieux. Ajoutez vos ingrédients et laissez l'IA faire la magie!",
+    "inputHeader": "Qu'y a-t-il dans votre garde-manger?",
+    "inputPlaceholder": "ex: blanc de poulet, tomates",
+    "add": "Ajouter",
+    "clearAll": "Tout effacer",
+    "generate": "Générer des Recettes",
+    "thinking": "Réflexion...",
+    "errorTitle": "Oh non!",
+    "errorMessage": "Nous n'avons pas pu générer de recettes cette fois. Veuillez vérifier si vos ingrédients sont clairs et spécifiques (par ex., '1 tasse de farine' au lieu de 'farine'). Si le problème persiste, veuillez réessayer plus tard. (Détails: {{details}})",
+    "addIngredientError": "Veuillez ajouter au moins un ingrédient pour commencer.",
+    "servingSizeTitle": "Pour qui cuisinez-vous ?",
+    "servingSizeError": "Veuillez définir un nombre de portions supérieur à zéro.",
+    "servings": {
+      "adults": "Adultes",
+      "children": "Enfants",
+      "seniors": "Seniors",
+      "total": "Total Portions"
+    },
+    "filters": {
+      "difficulty": "Difficulté:",
+      "all": "Toutes",
+      "easy": "Facile",
+      "medium": "Moyen",
+      "hard": "Difficile",
+      "sortBy": "Trier par:",
+      "default": "Défaut",
+      "shortest": "Temps (le plus court)",
+      "longest": "Temps (le plus long)"
+    }
+  },
+  "recipeGenerator": {
+    "title": "Qu'est-ce qui vous fait envie?",
+    "subtitle": "Obtenez une recette unique pour n'importe quelle idée, avec une photo!",
+    "inputPlaceholder": "ex: tacos au poulet épicés, pâtes végétaliennes",
+    "promptError": "Veuillez entrer ce que vous souhaitez préparer.",
+    "genericError": "Quelque chose s'est mal passé: {{details}}",
+    "surpriseMe": "Surprenez-moi!",
+    "inspirationTitle": "Ou essayez l'un de ces plats",
+    "quickEasy": "Rapide et Facile",
+    "healthy": "Sain",
+    "comfort": "Réconfortant",
+    "world": "Du Monde"
+  },
+  "profile": {
+    "title": "Mon Profil",
+    "subtitle": "Gérez vos préférences et suivez votre parcours culinaire.",
+    "accountDetails": "Détails du Compte",
+    "displayName": "Nom d'utilisateur",
+    "displayNamePlaceholder": "Entrez votre nom",
+    "stats": {
+      "dishesCooked": "Plats Cuisinés",
+      "tally": "Un décompte de vos créations culinaires!"
+    },
+    "preferences": "Préférences",
+    "language": "Langue",
+    "theme": "Thème",
+    "restrictions": {
+      "title": "Allergies et restrictions alimentaires",
+      "subtitle": "Énumérez tous les ingrédients à exclure de toutes les suggestions de recettes.",
+      "placeholder": "ex: arachides, gluten, crustacés",
+      "add": "Ajouter"
+    }
+  },
+  "cookbook": {
+    "title": "Mon Livre de Recettes",
+    "subtitle": "Votre collection personnelle de recettes enregistrées. Trouvez, filtrez et redécouvrez vos favoris.",
+    "empty": "Votre livre de recettes est vide.",
+    "empty_cta": "Commencez à explorer et enregistrez les recettes que vous aimez!",
+    "search_placeholder": "Rechercher dans votre livre de recettes...",
+    "filter_category": "Filtrer par catégorie",
+    "filter_tag": "Filtrer par étiquette",
+    "all_categories": "Toutes les catégories",
+    "all_tags": "Toutes les étiquettes",
+    "no_results": "Aucune recette trouvée.",
+    "no_results_desc": "Essayez d'ajuster votre recherche ou vos filtres."
+  },
+  "saveModal": {
+    "title_save": "Enregistrer dans le Livre de Recettes",
+    "title_edit": "Modifier les Détails de la Recette",
+    "notes": "Mes Notes",
+    "notes_placeholder": "ex: 'Sucre remplacé par du miel', 'Idéal pour les fêtes!'",
+    "categories": "Catégorie",
+    "category_placeholder": "Sélectionnez une catégorie",
+    "category_dinner": "Dîner",
+    "category_lunch": "Déjeuner",
+    "category_breakfast": "Petit-déjeuner",
+    "category_dessert": "Dessert",
+    "category_snack": "Collation",
+    "category_vegan": "Végétalien",
+    "tags": "Étiquettes",
+    "tags_placeholder": "Ajouter des étiquettes (ex: épicé, rapide)",
+    "save": "Enregistrer la Recette",
+    "update": "Mettre à jour la Recette"
+  },
+  "recipeCard": {
+    "cooked": "J'ai cuisiné ça!",
+    "share": "Partager la Recette",
+    "print": "Imprimer la Recette",
+    "save": "Enregistrer dans le livre de recettes",
+    "unsave": "Retirer du livre de recettes",
+    "edit": "Modifier les détails",
+    "linkCopied": "Lien copié!",
+    "copyFailed": "Échec de la copie",
+    "serves": "Portions",
+    "nutrition": {
+      "title": "Informations Nutritionnelles",
+      "serving": "(par portion)",
+      "calories": "Calories",
+      "protein": "Protéines",
+      "carbs": "Glucides",
+      "fat": "Lipides",
+      "unavailable": "Informations nutritionnelles estimées non disponibles."
+    },
+    "ingredients": "Ingrédients",
+    "instructions": "Instructions",
+    "image": {
+      "generating": "Génération de l'image..."
+    }
+  },
+  "shared": {
+    "title": "Voici une Recette Partagée!",
+    "subtitle": "Profitez de cette recette. Vous pouvez l'enregistrer dans vos favoris ou retourner à l'application.",
+    "back": "Retour à Chef Culina"
+  },
+  "loading": "Génération de délicieuses recettes...",
+  "auth": {
+    "welcome": "Bienvenue à",
+    "login": "Connexion",
+    "signup": "Inscription",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmez le mot de passe",
+    "name": "Nom",
+    "loginPrompt": "Vous n'avez pas de compte?",
+    "signupPrompt": "Vous avez déjà un compte?",
+    "logout": "Déconnexion",
+    "divider": "Ou continuer avec",
+    "google_signin": "Continuer avec Google",
+    "apple_signin": "Continuer avec Apple",
+    "discord_signin": "Continuer avec Discord",
+    "errors": {
+      "nameEmpty": "Le nom ne peut pas être vide.",
+      "emailInvalid": "Veuillez entrer une adresse e-mail valide.",
+      "passwordEmpty": "Le mot de passe ne peut pas être vide.",
+      "passwordShort": "Le mot de passe doit comporter au moins 6 caractères.",
+      "passwordMismatch": "Les mots de passe ne correspondent pas.",
+      "generic": "Une erreur inattendue est survenue.",
+      "socialLogin": "Une erreur inattendue est survenue lors de la connexion sociale.",
+      "invalidCredentials": "E-mail ou mot de passe invalide.",
+      "emailExists": "Un compte avec cet e-mail existe déjà."
+    }
+  }
+}

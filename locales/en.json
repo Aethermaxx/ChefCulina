@@ -1,0 +1,182 @@
+{
+  "nav": {
+    "home": "Home",
+    "pantry": "Pantry",
+    "finder": "Finder",
+    "recipe": "Recipe",
+    "cookbook": "Cookbook",
+    "profile": "Profile"
+  },
+  "slogan": "love food? hate waste.",
+  "home": {
+    "greeting": "Hi, {{name}}!",
+    "welcome": "Welcome to your personal kitchen assistant. Turn leftover ingredients into amazing meals, or get inspired with a brand new recipe idea.",
+    "myPantry": "My Pantry",
+    "inspireMe": "Inspire Me!"
+  },
+  "pantry": {
+    "title": "Pantry Chef",
+    "subtitle": "Turn your pantry items into delicious meals. Add your ingredients and let AI do the magic!",
+    "inputHeader": "What's in your pantry?",
+    "inputPlaceholder": "e.g., chicken breast, tomatoes",
+    "add": "Add",
+    "clearAll": "Clear All",
+    "generate": "Generate Recipes",
+    "thinking": "Thinking...",
+    "errorTitle": "Oh no!",
+    "errorMessage": "We couldn't generate recipes this time. Please check if your ingredients are clear and specific (e.g., '1 cup flour' instead of 'flour'). If the problem persists, please try again later. (Details: {{details}})",
+    "addIngredientError": "Please add at least one ingredient to get started.",
+    "servingSizeTitle": "Who are you cooking for?",
+    "servingSizeError": "Please set a serving size greater than zero.",
+    "servings": {
+      "adults": "Adults",
+      "children": "Children",
+      "seniors": "Seniors",
+      "total": "Total Servings"
+    },
+    "filters": {
+      "difficulty": "Difficulty:",
+      "all": "All",
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard",
+      "sortBy": "Sort by:",
+      "default": "Default",
+      "shortest": "Cook Time (Shortest)",
+      "longest": "Cook Time (Longest)"
+    }
+  },
+  "recipeGenerator": {
+    "title": "What are you craving?",
+    "subtitle": "Get a unique recipe for any idea, complete with a photo!",
+    "inputPlaceholder": "e.g., spicy chicken tacos, vegan pasta",
+    "promptError": "Please enter what you'd like to make.",
+    "genericError": "Something went wrong: {{details}}",
+    "surpriseMe": "Surprise Me!",
+    "inspirationTitle": "Or Try One of These",
+    "quickEasy": "Quick & Easy",
+    "healthy": "Healthy Eats",
+    "comfort": "Comfort Food",
+    "world": "Around the World"
+  },
+  "finder": {
+    "title": "Ingredient Finder",
+    "subtitle": "Snap a photo of your ingredients and let AI identify them!",
+    "upload": "Upload Image",
+    "drag_drop": "Drag and drop an image here, or click to select",
+    "analyze": "Analyze Image",
+    "analyzing": "Analyzing...",
+    "result": "Found Ingredients:",
+    "clickToChange": "Click to change image",
+    "no_image": "Please upload an image first."
+  },
+  "profile": {
+    "title": "My Profile",
+    "subtitle": "Manage your preferences and track your culinary journey.",
+    "accountDetails": "Account Details",
+    "displayName": "Display Name",
+    "displayNamePlaceholder": "Enter your name",
+    "stats": {
+      "dishesCooked": "Dishes Cooked",
+      "tally": "A tally of your culinary creations!"
+    },
+    "preferences": "Preferences",
+    "language": "Language",
+    "theme": "Theme",
+    "restrictions": {
+      "title": "Allergies & Dietary Restrictions",
+      "subtitle": "List any ingredients to exclude from all recipe suggestions.",
+      "placeholder": "e.g., peanuts, gluten, shellfish",
+      "add": "Add"
+    }
+  },
+  "cookbook": {
+    "title": "My Cookbook",
+    "subtitle": "Your personal collection of saved recipes. Find, filter, and revisit your favorites.",
+    "empty": "Your cookbook is empty.",
+    "empty_cta": "Start exploring and save recipes you love!",
+    "search_placeholder": "Search in your cookbook...",
+    "filter_category": "Filter by category",
+    "filter_tag": "Filter by tag",
+    "all_categories": "All Categories",
+    "all_tags": "All Tags",
+    "no_results": "No recipes found.",
+    "no_results_desc": "Try adjusting your search or filters."
+  },
+  "saveModal": {
+    "title_save": "Save to Cookbook",
+    "title_edit": "Edit Recipe Details",
+    "notes": "My Notes",
+    "notes_placeholder": "e.g., 'Substituted sugar with honey', 'Great for parties!'",
+    "categories": "Category",
+    "category_placeholder": "Select a category",
+    "category_dinner": "Dinner",
+    "category_lunch": "Lunch",
+    "category_breakfast": "Breakfast",
+    "category_dessert": "Dessert",
+    "category_snack": "Snack",
+    "category_vegan": "Vegan",
+    "tags": "Tags",
+    "tags_placeholder": "Add tags (e.g., spicy, quick)",
+    "save": "Save Recipe",
+    "update": "Update Recipe"
+  },
+  "recipeCard": {
+    "cooked": "I Cooked This!",
+    "share": "Share Recipe",
+    "print": "Print Recipe",
+    "save": "Save to cookbook",
+    "unsave": "Remove from cookbook",
+    "edit": "Edit Details",
+    "linkCopied": "Link Copied!",
+    "copyFailed": "Failed to copy",
+    "serves": "Serves",
+    "nutrition": {
+      "title": "Nutrition Facts",
+      "serving": "(per serving)",
+      "calories": "Calories",
+      "protein": "Protein",
+      "carbs": "Carbs",
+      "fat": "Fat",
+      "unavailable": "Estimated nutritional information not available."
+    },
+    "ingredients": "Ingredients",
+    "instructions": "Instructions",
+    "image": {
+      "generating": "Generating Image..."
+    }
+  },
+  "shared": {
+    "title": "Here's a Shared Recipe!",
+    "subtitle": "Enjoy this recipe. You can save it to your favorites or go back to the app.",
+    "back": "Back to Chef Culina"
+  },
+  "loading": "Generating delicious recipes...",
+  "auth": {
+    "welcome": "Welcome to",
+    "login": "Log In",
+    "signup": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "name": "Name",
+    "loginPrompt": "Don't have an account?",
+    "signupPrompt": "Already have an account?",
+    "logout": "Log Out",
+    "divider": "Or continue with",
+    "google_signin": "Continue with Google",
+    "apple_signin": "Continue with Apple",
+    "discord_signin": "Continue with Discord",
+    "errors": {
+      "nameEmpty": "Name cannot be empty.",
+      "emailInvalid": "Please enter a valid email address.",
+      "passwordEmpty": "Password cannot be empty.",
+      "passwordShort": "Password must be at least 6 characters long.",
+      "passwordMismatch": "Passwords do not match.",
+      "generic": "An unexpected error occurred.",
+      "socialLogin": "An unexpected error occurred during social login.",
+      "invalidCredentials": "Invalid email or password.",
+      "emailExists": "An account with this email already exists."
+    }
+  }
+}
